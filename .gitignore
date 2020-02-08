@@ -1,20 +1,17 @@
-# Slim PHP Framework
-
-/vendor/
-/logs/*
-!/logs/README.md
-/templates/cache/*
-!/templates/cache/README.md
-
-# iOS
-
-.DS_STORE
-.idea/
+######################################################################
+#
+#
+# Generic .gitignore common for various platform environments.
+#
+#
+######################################################################
 
 # Composer
-
 composer.lock
 
-# Node modules
-
+# Node
 /node_modules/
+
+# iOS
+.DS_STORE
+.idea/
